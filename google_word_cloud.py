@@ -15,6 +15,8 @@ class GoogleWordCloud(object):
         for file in self.files:
             with open(file) as f:
                 s = f.read()
+                if len(s.split()) < 10:
+                    continue
                 wc = WordCloud(
                     background_color="white",
                     font_path="/app/fonts/NotoSansCJKjp-Regular.otf",
