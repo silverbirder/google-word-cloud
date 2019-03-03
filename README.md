@@ -1,6 +1,6 @@
 # google-word-cloud
 
-google検索履歴を月別にwordCloudで表示する
+googleのマイアクティビティから、検索履歴を月別にwordCloudで表示する
 
 例えば、2019年1月のGoogle検索履歴では、golangとvueにハマっていた  
 ![output](https://res.cloudinary.com/silverbirder/image/upload/v1551595196/google-word-cloud/%E3%83%9E%E3%82%A4%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%92%E3%82%99%E3%83%86%E3%82%A3.json.201901.json.txt.png)
