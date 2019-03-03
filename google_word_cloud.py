@@ -8,8 +8,9 @@ class GoogleWordCloud(object):
                   'それ', 'ここ', 'ちゃん', 'くん', '', 'て', 'に', 'を', 'は', 'の', 'が', 'と', 'た', 'し', 'で',
                   'ない', 'も', 'な', 'い', 'か', 'ので', 'よう', '']
 
-    def __init__(self, files):
+    def __init__(self, files, font_path='fonts/NotoSansCJKjp-Regular.otf'):
         self.files = files
+        self.font_path = font_path
 
     def out_put(self):
         for file in self.files:
@@ -19,7 +20,7 @@ class GoogleWordCloud(object):
                     continue
                 wc = WordCloud(
                     background_color="white",
-                    font_path="/app/fonts/NotoSansCJKjp-Regular.otf",
+                    font_path=self.font_path,
                     stopwords=self.STOP_WORDS,
                 )
                 wc.generate(s)

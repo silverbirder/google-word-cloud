@@ -1,7 +1,7 @@
 from takeout import Takeout
 from google_word_cloud import GoogleWordCloud
 
-ROOT_PATH = '/app/Takeout/'
+ROOT_PATH = 'Takeout/'
 
 takeout = Takeout(path=ROOT_PATH)
 takeout.init()
