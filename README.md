@@ -24,8 +24,6 @@ googleのマイアクティビティから、検索履歴を月別にwordCloud�
 
 2. コマンドを実行する (python 3.7の環境)
 
-※ main.pyにあるROOT_PATHを、自身の環境に合わせて下さい。
-
 ```
 $ pip install -r requirements.txt
 $ python main.py
